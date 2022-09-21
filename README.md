@@ -3,15 +3,16 @@
 
 - [Amazon tests](#amazon-tests)
     - [Table of contents](#table-of-contents)
-  - [- References](#--references)
   - [Description](#description)
     - [Organization](#organization)
   - [Prerequisites](#prerequisites)
   - [How to use](#how-to-use)
+    - [Screenplay pattern diagram](#screenplay-pattern-diagram)
     - [Instalation](#instalation)
     - [Run test cases](#run-test-cases)
     - [Docker execution](#docker-execution)
   - [References](#references)
+
 ---
 ## Description
 
@@ -21,13 +22,14 @@ Acceptance testing with Cucumber and Playwright. The base of framework is built 
 
  | Path | Description |
 | :--- | :---: |
-|features | Features is the place where we will keep all our user stories written in Gherkins |
-|steps-definitions | The step definitions is where we will put all our steps that are written in the Features section |
 | data | It is where we will put all the data that we will need to execute the test cases such as payload, headers, etc. |
 | facts| It is where we will put all the classes that we will need to initialize the execute of the test cases, we can say that it is associated with Given step|
-| task | It is where we will put all the classes related with the business goal, I mean, with the action that i will do in the execute of the test case, we can say that it is associated with When step. Tasks will consist of a series of interactions|
-| questions | It is where we will put all the classes to check that the task was successful, we can say that it is associated with the Then step. Questions will consist of a series of interactions|
+|features | Features is the place where we will keep all our user stories written in Gherkins |
 |interactions | It is where we will put all the classes related with the interactions with the SUT, such as navigating to websites, clicking buttons, entering values in form fields, or submitting HTTP requests to a REST API. This series of actions are composite a results in a facts, task or questions|
+| questions | It is where we will put all the classes to check that the task was successful, we can say that it is associated with the Then step. Questions will consist of a series of interactions|
+|selectos | It is where we will put all the selectors that we will need to localize some element like button, menu, etc|
+|steps-definitions | The step definitions is where we will put all our steps that are written in the Features section |
+| task | It is where we will put all the classes related with the business goal, I mean, with the action that i will do in the execute of the test case, we can say that it is associated with When step. Tasks will consist of a series of interactions|
 
 
 ## Prerequisites
@@ -37,6 +39,13 @@ You’ll need Node.js installed. Install at least v16.10.0 or higher as this is 
 --- 
 
 ## How to use 
+
+
+### Screenplay pattern diagram
+
+![image](https://drive.google.com/file/d/1vmdSq9QnPjPlLsi_L-o4nEXVRz6KW4BS/view?usp=sharing)
+
+
 
 ### Instalation
 To install the framework, you must follow the following steps:   
