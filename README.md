@@ -7,7 +7,7 @@
     - [Organization](#organization)
   - [Prerequisites](#prerequisites)
   - [How to use](#how-to-use)
-    - [Pattern diagram](#pattern-diagram)
+    - [Diagram](#diagram)
     - [Instalation](#instalation)
     - [Run test cases](#run-test-cases)
     - [Docker execution](#docker-execution)
@@ -41,7 +41,7 @@ You’ll need Node.js installed. Install at least v16.10.0 or higher as this is 
 ## How to use 
 
 
-### Pattern diagram
+### Diagram
          
 ![image](https://drive.google.com/uc?export=view&id=1vmdSq9QnPjPlLsi_L-o4nEXVRz6KW4BS)
 
