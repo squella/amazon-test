@@ -1,0 +1,12 @@
+{
+  "ts-node": {
+      "transpileOnly": true,
+      "esm":true
+  },
+
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "module": "CommonJS"
+  }
+}
