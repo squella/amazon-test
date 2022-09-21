@@ -7,7 +7,7 @@
     - [Organization](#organization)
   - [Prerequisites](#prerequisites)
   - [How to use](#how-to-use)
-    - [Screenplay pattern diagram](#screenplay-pattern-diagram)
+    - [Pattern diagram](#pattern-diagram)
     - [Instalation](#instalation)
     - [Run test cases](#run-test-cases)
     - [Docker execution](#docker-execution)
@@ -16,7 +16,7 @@
 ---
 ## Description
 
-Acceptance testing with Cucumber and Playwright. The base of framework is built with Typscript programming language and Gherkin.
+Acceptance testing following the screenplay pattern with Cucumber and Playwright. The base of framework is built with Typscript programming language and Gherkin.
 
 ### Organization
 
@@ -41,10 +41,9 @@ You’ll need Node.js installed. Install at least v16.10.0 or higher as this is 
 ## How to use 
 
 
-### Screenplay pattern diagram
-
-![image](https://drive.google.com/file/d/1vmdSq9QnPjPlLsi_L-o4nEXVRz6KW4BS/view?usp=sharing)
-
+### Pattern diagram
+         
+![image](https://drive.google.com/uc?export=view&id=1vmdSq9QnPjPlLsi_L-o4nEXVRz6KW4BS)
 
 
 ### Instalation
