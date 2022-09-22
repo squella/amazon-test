@@ -6,7 +6,7 @@ import { CartQuestion } from "../questions/cart";
 
 
 
-Given("a logged user on {string}", async function (this: CustomWorld, url: string) {
+Given("an user on {string}", async function (this: CustomWorld, url: string) {
   await this.page.goto(`https://${url}`)
   
 });
