@@ -50,7 +50,7 @@ You’ll need Node.js installed. Install at least v16.10.0 or higher as this is 
 To install the framework, you must follow the following steps:   
 
 1. ``` 
-    git clone https://github.com/Gamestry1/website-qa.git
+    git clone https://github.com/squella/amazon-test.git
 2. ```
     npm install
     
