@@ -1,4 +1,4 @@
-Feature:Gamestry home page
+Feature: cart
 As a user 
 I want to make a purchase in Amazon web
 So that get the product
